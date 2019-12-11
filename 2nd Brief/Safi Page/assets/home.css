@@ -1,0 +1,374 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.first{
+    width: 100%;
+    height: 500px;
+    background-image: url(slide1.jpg);
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    
+}
+li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    
+}
+li a{
+    padding: 35px 10px;
+}
+ul{
+    padding: 0;
+    margin-top: 35px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: #038dfe;
+    border: #038dfe solid 1px;
+    
+    padding: 10px 35px;
+    border-radius: 10rem;
+}
+a:hover{
+    cursor: pointer;
+    color: #337ab7;
+}
+
+
+.second{
+    height: fit-content;
+    padding: 0px 15px;
+    margin-left: 60px;
+    margin-top: 100px;
+    width: fit-content;
+}
+.second h2{
+text-align: center;
+font-family: Montserrat;
+color: white;
+font-weight: 600;
+margin-bottom: 25px;
+font-size:36px;
+}
+.second a{
+text-align: center;
+font-family: Montserrat;
+color: white;
+padding: 15px 40px;
+border-radius: 10rem;
+
+}
+.second .decouvrir{
+    
+background-color: #038dfe;
+border: #038dfe solid 1px;
+}
+.second .inscri2{
+border:white solid 2px;
+}
+.second p {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.btn:hover,.inscri2:hover{
+    cursor: pointer;
+    color: #337ab7;
+    background-color: white;
+    border-color: white;
+    
+}
+.decouvrir:hover{
+    cursor: pointer;
+    color: #337ab7;
+    background-color: white;
+    border-color: white;
+}
+
+
+footer{
+    width: 100%;
+    height: 94px;
+    background-color: black;
+}
+
+.foo{
+    width: 95%;
+    height: 75%;
+    
+    margin: auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+.foo1,.foo2,.foo3{
+    display: inline-block;
+    flex: 1;
+
+}
+
+.foo1 p,.foo2 p,.foo3 p {
+    color: #666666;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.foo1 i,.foo2 i,.foo3 i{
+    color: white;
+    font-size: 20px;
+    
+}
+.foo2{
+    padding-top: 30px;padding-right: 15px;padding-left: 15px;
+    text-align: center;
+}
+
+
+.foo3{
+    text-align: right;padding-right: 15px;padding-left: 15px;
+}
+
+
+
+.icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+.youcode-eco{
+    text-align: center;
+    margin-top: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.youcode-eco p{
+    padding-top: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 15px;
+}
+.youcode-eco h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #2b2b2b;
+    letter-spacing: 0.08em;
+}
+.container{
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+}
+.container p{
+    padding-top: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 15px;
+}
+.container h4{
+    margin: 25px 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #496174;
+    letter-spacing: 0.08em;
+   
+}
+.container i{
+    font-size: 46px ;
+    color: #008aff;
+}
+.container div{
+    padding-top: 60px;
+}
+
+.QST {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 63px;
+}
+.slide{
+    background-image: url(hack3.jpg);
+    background-size: cover;
+    width: 50%;
+}
+.R{
+    width: 50%;
+    text-align: center;
+    background-image:linear-gradient(#038DFE,#0064B6);
+    color: white;
+    padding: 60px;
+}
+.R h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.R h4{
+    margin: 25px 0;
+    font-size: 18px;
+}
+.R p{
+    
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+.simplon{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(simplon.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 10%;
+}
+
+.simplon span{
+    font-size: 18px;
+    position: relative;
+    top:180px;
+    color: #038dfe;
+}
+.simplon p{
+    position: relative;
+    top:200px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.numbers{
+    display: flex;
+    color: white;
+    padding: 60px 0;
+    background-color:#038dfe ;
+    text-align: center;
+    
+}
+.numbers div {
+    flex: 1;
+    
+}
+.numbers div.d2,.d3{
+    border-left: black dashed 1px;
+}
+.numbers div h1{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+.menu div p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-style: normal;
+    
+}
+.iden-simpl{
+    margin-top: 20px;
+    padding: 50px ;
+   max-width: 1200px;
+
+}
+.iden-simpl p{
+    line-height: 250%;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #666666;
+}
+.sponsor{
+    text-align: center;
+    padding: 50px 0 100px;
+}
+.sponsor h2{
+margin-top: 20px;
+margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+line-height: 60px;
+font-size: 40px;
+letter-spacing: 0.08em;
+
+}
+.form{
+    width: 90%;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 0 15px;
+    margin-bottom: 80px;
+}
+.form h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2b2b2b;
+    letter-spacing: 0.08em;
+    width: 50%;
+    margin:0 15px;
+    
+}
+.form a{
+margin:0 15px;
+width: 50%;
+text-align: center;
+font-family: Montserrat;
+color: white;
+background-color: #038dfe;
+border: #038dfe solid 1px;
+padding: 10px 120px;
+border-radius: 10rem;
+box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+
+}
+.form a:hover{
+        cursor: pointer;
+        color: #337ab7;
+        background-color: white;
+        border-color: white;
+}
