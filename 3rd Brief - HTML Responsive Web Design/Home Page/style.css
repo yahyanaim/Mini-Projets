@@ -400,6 +400,7 @@ footer{
     font-size: 15px;
     line-height: 1.7;
     font-weight: 500;
+    margin-top: 10px;
 }
 .foo1 i,.foo2 i,.foo3 i{
     color: white;
