@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+header {
+    background-image: url(assets/back.png);
+    height: 700px;
+}
+
+.container {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-right: 20px;
+}
