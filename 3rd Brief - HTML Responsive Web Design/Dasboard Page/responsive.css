@@ -64,6 +64,8 @@
     
     footer{
         height: fit-content;
+        margin-top: 20px;
+        height: 190px;
     }
     
     .foo{
