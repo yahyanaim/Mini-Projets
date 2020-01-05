@@ -1,0 +1,139 @@
+@media (max-width:1260px){
+
+    .logo
+    {
+        width: auto;
+        height: 80px;
+        display: block;
+        margin: auto;
+    }
+    
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .menu img{
+    position: fixed;
+    left: 175px;
+    top:6px;
+    width: 40x;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+     
+    
+    }
+    .menu  {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display:block;
+        border-bottom:1px solid #EAEAEB;
+        margin:0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .button{
+        border-radius: 0px;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+         
+    }
+
+
+
+    .img
+{
+    right: 100px;
+}
+
+.img1
+{
+    right: 100px;
+}
+
+
+    
+    footer{
+        height: fit-content;
+    }
+    
+    .foo{
+        text-align: center;
+        flex-direction: column;
+    }
+    .foo3{
+        text-align: center;
+    }
+    
+    }
+    
+    
+    @media (max-width: 1160px)
+    {
+    
+    .container{
+        flex-direction: column;
+    }
+    .img
+    {
+        right: 45%;
+    }
+    
+    .img1
+    {
+        right: 45%;
+    }
+
+    .ctnt {
+        flex-direction: column-reverse;
+    }
+
+    .cont {
+        width: 100%;
+        align-items: center;
+
+    }
+
+
+    .bdy {
+        width: 100%;
+    }
+
+    .hctt {
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+    }
+
+    
+    @media (max-width:526px)
+    {
+    .header {
+        overflow-y: hidden;
+        width: 100%;
+        background-color: black;
+    }
+    
+
+    .img
+    {
+        right: 38%;
+    }
+    
+    .img1
+    {
+        right: 36%;
+    }
+
+    }

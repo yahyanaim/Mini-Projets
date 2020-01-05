@@ -116,7 +116,6 @@ header
 {
     color: white;
     padding-top: 110px;
-    padding-left: 200px;
     font-weight: thin;
 }
 
@@ -202,7 +201,7 @@ header
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    margin-left: 140px;
+    margin: auto;
     margin-top: 50px;
 }
 
@@ -236,7 +235,7 @@ header
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    margin-left: 140px;
+    margin: auto;
     margin-top: 80px;
     vertical-align: middle;
 }
@@ -248,18 +247,18 @@ header
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    margin-left: 140px;
+    margin: auto;
     margin-top: 80px;
     vertical-align: middle;
 }
-
+ 
 .log
 {
     color: white;
     background-color: none;
     border: 2px solid white;
     border-radius: 25px;
-    margin-left: 160px;
+    margin: auto;
     padding: 10px 20px;
     margin-bottom: -200px;
 }
@@ -273,6 +272,10 @@ header
 .bt
 {
     margin-top: 80px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+
 }
 
 .ti
@@ -399,87 +402,3 @@ footer{
     margin-bottom: 5px;
 }
 
-@media (max-width:1260px){
-
-    .logo
-    {
-        width: auto;
-        height: 80px;
-        display: block;
-        margin: auto;
-    }
-    
-    label {
-        display: block;
-        cursor: pointer;
-    }
-    
-    .menu img{
-    position: fixed;
-    left: 175px;
-    top:6px;
-    width: 40x;
-    height: 40px;
-    margin-left: 0px;
-    margin-top: 10px;
-     
-    
-    }
-    .menu  {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a {
-        display:block;
-        border-bottom:1px solid #EAEAEB;
-        margin:0;
-        background-color: black;
-        color: white;
-        text-align: center;
-        width: 100%;
-    }
-    
-    .button{
-        border-radius: 0px;
-    }
-    
-    #toggle:checked + .menu{
-        display: block;
-         
-    }
-    
-    footer{
-        height: fit-content;
-    }
-    
-    .foo{
-        text-align: center;
-        flex-direction: column;
-    }
-    .foo3{
-        text-align: center;
-    }
-    
-    }
-    
-    
-    @media (max-width:900px)
-    {
-    
-    .container{
-        flex-direction: column;
-    }
-    
-    }
-    
-    
-    @media (max-width:526px)
-    {
-    .header {
-        overflow-y: hidden;
-        width: 100%;
-        background-color: black;
-    }
-    
-    }
