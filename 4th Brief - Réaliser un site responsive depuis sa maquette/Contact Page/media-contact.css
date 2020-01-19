@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    header .container{
+        width: 100%;
+    }
+    .nav-icon{
+        margin-left: 30px;
+        position: fixed;
+        z-index: 3000;
+        color: #fff;
+    }
+    #toggle:checked ~ .nav-icon{
+        color: #000;
+    }
+    #toggle:checked ~ .menu{
+        display: block;
+        background-color: #fff;
+        overflow: hidden;
+        width: 100%;
+        padding: 20px ;
+        text-align: center;
+        position: fixed;
+        z-index: 2000;
+        top: 0;
+        height: 100%;
+        margin: 0;
+    }
+    .menu li{
+        display: block;
+        color: #000;
+        margin: 50px;
+        font-size: 26px;
+    }
+    
+
+    
+
+    .form {
+        width: 60%;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #waw {
+        margin-top: 60px;
+    }
+
+    .txtf {
+        text-align: center;
+    }
+
+    .ibf {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btnf {
+        padding: 10px 20px 10px 20px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:1024px){
+
+    .form {
+        width: 80%;
+    }
+
+
+    .container1 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lft {
+        width: 80%;
+        text-align: center;
+    }
+
+    .rgt {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .para {
+        padding: 120px 15px 30px 15px;
+        height: auto;
+    }
+
+    .ibf {
+        width: ;
+    }
+
+    .divsfooter div:nth-of-type(1) h1 {
+                    left: 10%;
+                }
+                .divsfooter div:nth-of-type(1) P {
+                    left: 10%;
+                }
+                .divsfooter div:nth-of-type(1) span {
+                    display: none;
+                }
+                #dfooter4 h1 {
+                    left: 5pc;
+                }
+                #dfooter4 p {
+                    left: 5pc;
+                  
+                }
+                #dfooter4 pre {
+                    left: 5pc;
+                  
+                }
+                #f1 #dfooter1 {
+             left: 15%;
+            }
+            #f1 #dfooter2 {
+                left: 15%;
+               }
+               #f1 #dfooter3 {
+                left: 15%;
+               }
+               #f1 #dfooter4 {
+                left: 15%;
+               }
+    
+    }
+    
