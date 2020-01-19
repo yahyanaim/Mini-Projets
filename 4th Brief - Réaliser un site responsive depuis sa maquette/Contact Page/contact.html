@@ -35,10 +35,10 @@
             <hr class="line">
             <div class="form">
                 <h2 id="mae">Make AN ENQUIRY!</h2>
-                <input class="inp" type="text" value=" FULL NAME ">
-                <input class="inp" type="text" value=" EMAIL ADRESS ">
-                <input class="inp" id="inp3" type="text" value=" MESSAGE ">
-                <a class="sbt" href="">SEND</a>
+                <input id="name" class="inp" type="text" name="name">
+                <input id="email" class="inp" type="text" name="email">
+                <input id="message" class="inp" type="text" name="message">
+                <a class="sbt" onclick="validation()" >SEND</a>
             </div>
             <div class="bci">
                 <img src="../assets/dbimg.png" alt="" style="width:  100%;height: 100%;">            </div>
@@ -98,6 +98,6 @@
             </p>
         </div>
         </footer>
-    
+        <script src="form.js"></script>
 </body>
 </html>

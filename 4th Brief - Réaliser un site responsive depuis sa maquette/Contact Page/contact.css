@@ -127,7 +127,7 @@ label{
     color: #CCCCCC;
 }
 
-#inp3 {
+#message {
     height: 150px;
     text-align: start;
     margin-bottom: 40px;
@@ -142,6 +142,7 @@ label{
     text-align: center;
     margin: auto;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .bci {
