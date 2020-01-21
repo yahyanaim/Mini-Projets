@@ -6,7 +6,7 @@ function validation(){
 
     if(name == "" || email == "" || message == ""){
 
-               alert("Make sure ao aill all the fields");
+               alert("Make sure to fill all the fields");
 
     }else{
 
